@@ -20,3 +20,6 @@ git push origin master : 后续使用。
 git remote -v : 查看远程库信息。
 git remote rm “name” : 解除本地和远程的绑定关系，“name”为远程库名字，如origin。
 git clone git@github.com:michaelliao/gitskills.git : 将github上的库克隆到本地，会在当前目录下建立对应子目录。
+git branch : 查看所有本地分支。
+git branch "name" : 创建分支name。
+git switch "name" : 切换到分支name。
