@@ -23,3 +23,6 @@ git clone git@github.com:michaelliao/gitskills.git : 将github上的库克隆到
 git branch : 查看所有本地分支。
 git branch "name" : 创建分支name。
 git switch "name" : 切换到分支name。
+git merge "name" : 将分支name合并到当前分支中。
+git branch -d "name" : 将分支name删除。
+git switch -c "name" : 创建并切换到分支name。
