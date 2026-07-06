@@ -26,4 +26,5 @@ git switch "name" : 切换到分支name。
 git merge "name" : 将分支name合并到当前分支中。
 git branch -d "name" : 将分支name删除。
 git switch -c "name" : 创建并切换到分支name。
-new try.
+git merge --no-ff -m "message" "name" : 禁用Fast forward的合并，会记录合并对应的分支过程。
+
