@@ -12,3 +12,7 @@ git reflog : 查询每一次命令（可用来找版本号）
 git checkout -- "file name" : 撤销file在工作区内的全部修改，误删文件可以恢复。
 git reset HEAD "file name" : 把暂存区的修改撤销，放回工作区。
 git rm "file name" : 彻底删除一个文件（删除文件，并从版本库内移除）。
+ssh-keygen -t rsa -C "youremail@example.com" : 创建一个钥匙，“”内的是钥匙的备注信息（名字）。
+github - Create a new repo : 创建新远程仓库，并填入名字。
+git remote add origin git@github.com:michaelliao/learngit.git : 本地关联远程库，其中":"后的内容需要对应修改。
+git push -u origin master : 把本地的仓库推送到远程。
