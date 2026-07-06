@@ -17,3 +17,5 @@ github - Create a new repo : 创建新远程仓库，并填入名字。
 git remote add origin git@github.com:michaelliao/learngit.git : 本地关联远程库，其中":"后的内容需要对应修改。
 git push -u origin master : 把本地的仓库推送到远程（第一次时使用）。
 git push origin master : 后续使用。
+git remote -v : 查看远程库信息。
+git remote rm “name” : 解除本地和远程的绑定关系，“name”为远程库名字，如origin。
