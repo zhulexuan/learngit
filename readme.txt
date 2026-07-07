@@ -46,3 +46,5 @@ git tag -d "tag name" : 删除标签。
 git push origin "tag name" : 像远程库推送标签。
 git push origin --tags : 推送所有标签。
 git push origin :refs/tags/"tag name" : 在本地删除标签后，在远程库上同步删除操作。
+github - fork : 克隆仓库到自己的账号，然后可以从github克隆到本地。
+github - pull request : 请求对方接受自己的pull。
