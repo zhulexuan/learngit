@@ -17,7 +17,7 @@ github - Create a new repo : 创建新远程仓库，并填入名字。
 git remote add origin git@github.com:michaelliao/learngit.git : 本地关联远程库，其中":"后的内容需要对应修改。
 git push -u origin master : 把本地的仓库推送到远程（第一次时使用）。
 git push origin master : 后续使用。
-git remote -v : 查看远程库信息。
+git remote -v : 查看远程库详细信息。
 git remote rm “name” : 解除本地和远程的绑定关系，“name”为远程库名字，如origin。
 git clone git@github.com:michaelliao/gitskills.git : 将github上的库克隆到本地，会在当前目录下建立对应子目录。
 git branch : 查看所有本地分支。
@@ -34,3 +34,4 @@ git stash apply stash@{**} : 返回stash@{**}对应的stash。
 git stash drop stash@{**} : 删除stash@{**}对应的stash。
 git stash list : 查看所有stash。
 git branch -D "name" : 强行删除未合并的分支"name"。
+git push -u origin dev : 将分支dev的更新插入到远程origin的版本库中，后续使用无需加-u。
