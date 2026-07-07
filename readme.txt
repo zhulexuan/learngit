@@ -35,3 +35,6 @@ git stash drop stash@{**} : 删除stash@{**}对应的stash。
 git stash list : 查看所有stash。
 git branch -D "name" : 强行删除未合并的分支"name"。
 git push -u origin dev : 将分支dev的更新插入到远程origin的版本库中，后续使用无需加-u。
+git branch --set-upstream-to=origin/dev dev : 设置和远程库的链接。
+git pull : 获取远程库的最新提交。
+git rebase : 将本地的时间线整理成直线。
