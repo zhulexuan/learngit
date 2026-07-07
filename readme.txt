@@ -33,3 +33,4 @@ git stash pop : 返回并删除最近的一个stash。
 git stash apply stash@{**} : 返回stash@{**}对应的stash。
 git stash drop stash@{**} : 删除stash@{**}对应的stash。
 git stash list : 查看所有stash。
+git branch -D "name" : 强行删除未合并的分支"name"。
