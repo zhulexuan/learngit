@@ -28,3 +28,8 @@ git branch -d "name" : 将分支name删除。
 git switch -c "name" : 创建并切换到分支name。
 git merge --no-ff -m "message" "name" : 禁用Fast forward的合并，会记录合并对应的分支过程。
 分支策略：master作为大版本器记录（递交评测），dev是工作主线（小优化），具体在详细分支上改动。
+git stash : 保存当前工作状态。
+git stash pop : 返回并删除最近的一个stash。
+git stash apply stash@{**} : 返回stash@{**}对应的stash。
+git stash drop stash@{**} : 删除stash@{**}对应的stash。
+git stash list : 查看所有stash。
